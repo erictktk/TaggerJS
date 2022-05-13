@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    
+    "rules": {
+        "eqeqeq": 1,
+        "strict": 1,
+        "no-undef": 2,
+        "no-unused-vars": 1
+    }
+}

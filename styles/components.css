@@ -1,0 +1,40 @@
+.image-element{
+    background-color: lightblue;
+    margin: 0px;
+    display: block;
+}
+
+.component-element{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px;
+}
+
+.image-border-element {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 3px;
+    margin: 0px;
+}
+
+.image-border-element-selected{
+    background-color: rgb(157, 255, 0);
+    padding: 3px;
+    margin: 0px;
+}
+
+/*
+.label-element{
+    position: relative;
+    float: center;
+
+    font-family: sans-serif;
+    font-weight: 500;
+    
+}*/
+
+#tags-label{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
