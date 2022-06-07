@@ -2,9 +2,7 @@ const siteName = "http://localhost:5000/";
 
 const signInUrl = siteName + "auth/signin";
 const signOutUrl = siteName + "auth/signout";
-
 const uploadUrl = siteName + "/update";
-
 let loadNewUrl = siteName + '/loadnew?lib=';
 
 
